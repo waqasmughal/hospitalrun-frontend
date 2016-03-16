@@ -275,9 +275,9 @@ export default Ember.Mixin.create({
           capability: 'user_roles'
         },
         {
-          title: 'Templates',
+          title: 'Invoice Template',
           iconClass: 'octicon-chevron-right',
-          route: 'admin.templates',
+          route: 'admin.invoice-template',
           capability: 'update_config'
         }
       ]

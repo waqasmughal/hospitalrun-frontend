@@ -19,9 +19,7 @@ Router.map(function() {
     });
     this.route('roles');
     this.route('query');
-    this.route('templates', function() {
-      this.route('invoice');
-    });
+    this.route('invoice-template');
   });
 
   this.route('appointments', {
