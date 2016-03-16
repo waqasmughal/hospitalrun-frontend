@@ -35,7 +35,8 @@ export default {
       load_db: 'Load DB',
       users: 'Users',
       new_user: 'New User',
-      user_roles: 'User Roles'
+      user_roles: 'User Roles',
+      templates: 'Templates'
     },
     actions: {
       logout: 'Logout',

@@ -19,6 +19,7 @@ Router.map(function() {
     });
     this.route('roles');
     this.route('query');
+    this.route('templates');
   });
 
   this.route('appointments', {

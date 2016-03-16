@@ -273,6 +273,12 @@ export default Ember.Mixin.create({
           iconClass: 'octicon-chevron-right',
           route: 'admin.roles',
           capability: 'user_roles'
+        },
+        {
+          title: 'Templates',
+          iconClass: 'octicon-chevron-right',
+          route: 'admin.templates',
+          capability: 'update_config'
         }
       ]
     }
